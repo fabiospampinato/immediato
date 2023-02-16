@@ -1,0 +1,28 @@
+{
+  "name": "immediato",
+  "repository": "github:fabiospampinato/immediato",
+  "description": "An isomorphic setImmediate implementation that doesn't prevent the process from exiting naturally.",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "clean": "tsex clean",
+    "compile": "tsex compile",
+    "compile:watch": "tsex compile --watch",
+    "test": "tsex test",
+    "test:watch": "tsex test --watch",
+    "prepublishOnly": "tsex prepare"
+  },
+  "keywords": [
+    "immediate",
+    "setImmediate",
+    "clearImmediate"
+  ],
+  "devDependencies": {
+    "fava": "^0.2.0",
+    "tsex": "^2.2.0",
+    "typescript": "^4.9.5"
+  }
+}
