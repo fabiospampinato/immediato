@@ -7,7 +7,7 @@ This implementation requires the `MessageChannel` API, so it works the same ever
 ## Install
 
 ```sh
-npm install --save immediato
+npm install immediato
 ```
 
 ## Usage
@@ -15,13 +15,13 @@ npm install --save immediato
 ```ts
 import {setImmediate, clearImmediate} from 'immediato';
 
-// Scheduling a function for execution
+// Let's scheduling a function for execution
 
 const immediateId = setImmediate ( () => {
   // Do something...
 });
 
-// Cancelling a scheduled function
+// Let's cancel a scheduled function
 
 clearImmediate ( immediateId );
 ```
