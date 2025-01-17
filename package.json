@@ -3,7 +3,7 @@
   "repository": "github:fabiospampinato/immediato",
   "description": "An isomorphic setImmediate implementation that doesn't prevent the process from exiting naturally.",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
