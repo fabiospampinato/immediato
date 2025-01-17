@@ -2,6 +2,7 @@
   "name": "immediato",
   "repository": "github:fabiospampinato/immediato",
   "description": "An isomorphic setImmediate implementation that doesn't prevent the process from exiting naturally.",
+  "license": "MIT",
   "version": "1.0.0",
   "type": "module",
   "main": "dist/index.js",
@@ -21,8 +22,8 @@
     "clearImmediate"
   ],
   "devDependencies": {
-    "fava": "^0.2.1",
-    "tsex": "^3.0.1",
-    "typescript": "^5.1.6"
+    "fava": "^0.3.4",
+    "tsex": "^4.0.2",
+    "typescript": "^5.7.3"
   }
 }
